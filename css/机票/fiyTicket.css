@@ -1,0 +1,445 @@
+
+/*banner部分*/
+.carousel-control{
+	opacity: 0;
+}
+.carousel-control:hover,.carousel-control:focus{
+	opacity: 0;
+}
+.carousel-indicators li{
+	border: 2px solid orange;
+}
+.carousel-indicators .active{
+	background-color: orange;
+}
+.banner{
+	width: 1518px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner_lv{
+	position: absolute;
+	left: 16%;
+	width: 500px;
+	top: 0;
+	height: 350px;
+	z-index: 2;
+}
+.banner-top{
+	box-sizing: border-box;
+	margin-top: 30px;
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	border: 2px solid #1AB2DB;
+	padding-right: 35px;
+}
+.banner-nav-s{
+	float: left;
+	margin: -1px 0 0 -1px;
+	background-color: #1AB2DB;
+	height: 298px;
+	color:white ;
+}
+.banner-nav-s>li:hover{
+	cursor: pointer;
+}
+.banner-nav-h>ul>li:hover{
+	cursor: pointer;
+	
+}
+.banner-nav-s>li{
+	padding: 0 10px;
+	position: relative;
+}
+.banner-nav-s>li>span{
+	display: inline-block;
+	padding: 10px 10px;
+	border-bottom:1px solid #47C1E2;
+}
+.banner-active{
+	color:#1AB2DB ;
+	background: url(../../img/首页/index/sy-shu.jpg) white no-repeat;
+}
+.banner-nav-s>.banner-active>span{
+	border-bottom: 1px solid white;
+}
+.banner-box-right{
+	width: 360px;
+	height: 300px;
+	left: 100px;
+	position: absolute;
+}
+.banner-nav-s>li:nth-of-type(1)>.banner-box-right{
+	top: 0px;
+}
+.banner-nav-s>li:nth-of-type(2)>.banner-box-right{
+	top: -40px;
+}
+.banner-nav-s>li:nth-of-type(3)>.banner-box-right{
+	top: -81px;
+}
+.banner-nav-s>li:nth-of-type(4)>.banner-box-right{
+	top: -122px;
+}
+.banner-nav-s>li:nth-of-type(5)>.banner-box-right{
+	top: -163px;
+}
+.banner-box-right{
+	display: none;
+}
+.banner-active>.banner-box-right{
+	display: block;
+}
+.banner-box-right>ul{
+	height: 40px;
+	border-bottom: 2px solid gray;
+	z-index: 6;
+}
+.banner-box-right>ul>li{
+	box-sizing: border-box;
+	float: left;
+	height: 40px;
+	padding: 10px 25px;
+}
+.banner-nav-h-active{
+	border-bottom: 3px solid #1AB2DB;
+}
+.banner-box-right form>div>input{
+	text-indent: 5px;
+	height: 30px;
+	border: 1px solid #D7D7D7;
+}
+.banner-box-right form>div>label{
+	text-align: right;
+	color: #666666;
+	font-weight: 100;
+	width: 60px;
+}
+.mudis,.importants{
+	width: 288px;
+}
+.rus,.tuis{
+	width: 110px;
+}
+.banner-box-right select{
+	color: #757575;
+	height: 30px;
+}
+.banner-box-right form>div{
+	margin-top: 12px;
+}
+.jibie>button,.jibie>input{
+	border: 1px solid gainsboro;
+	background-color: white;
+	border-radius:0 ;
+}
+.jibie>input{
+	width: 180px;
+}
+.jibie>ul{
+	top: 93%;
+}
+.jibie>ul>li>a{
+	text-align: center;
+	padding: 0;
+	line-height: 30px;
+}
+.jibie>ul>li>a:hover{
+	color: white;
+	background-color: #1AB2DB;
+}
+.banner-box-right form .form-txt{
+	margin-left: 40px;
+}
+.banner-box-right form .form-txt>a{
+	color: #1AB2DB;
+}
+.banner-box-right form .form-txt>a:hover,banner-box-right form .form-txt>a:focus{
+	color: #F9A400;
+	
+}
+.banner-box-right form>button{
+	border-radius:0 ;
+	background-color: #1AB2DB;
+	color: white;
+	margin: 5px 0 0 220px;
+	padding: 10px 30px;
+}
+.banner-box-right form>button:hover{
+	color: white;
+	background-color: #36C1E6;
+}
+.banner-box-right-text>div{
+	border-bottom: 1px solid gray;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+.banner-box-right-text>div>p>span{
+	color: black;
+}
+.banner-box-right-text>div>p>a{
+	color: #1AB2DB;
+	padding: 0 5px;
+}
+.banner-box-right-text>div>p>span,
+.banner-box-right-text>div>p>a{
+	font: 13px "微软雅黑";
+}
+.banner-box-right-text>div>p{
+	line-height: 15px;
+}
+.banner-box-right-text>div>p>a:hover{
+	color: gold;
+}
+.banner-h-po,
+.banner-h-pos,
+.banner-h-poes{
+	position: relative;
+}
+.banner-h-po>div,
+.banner-h-pos>div,
+.banner-h-poes>div{
+	position: absolute;
+	top: 40px;
+	width: 360px;
+	display: none;
+}
+.banner-h-po>div{
+	left: 0;
+	border: none;
+}
+.banner-h-pos>div{
+	left: -106px;
+}
+.banner-h-poes>div{
+	left: -212px;
+}
+.banner-h-poes>.banner-box-right-text>div{
+	border-bottom: none;
+}
+.banner-nav-h-active>div{
+	display: block;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	border: none;
+	
+}
+.tou > li > a:hover, .tou > li > a:focus {
+    background-color: transparent;
+}
+.mudi{
+	position: relative;
+}
+.mudi>div{
+	position: absolute;
+	width: 285px;
+	border: 1px solid gray;
+	z-index: 10;
+	left: 65px;
+	top: 35px;
+	border-radius: 3%;
+	display: none;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.mudi>div>p{
+	font: 12px "微软雅黑";
+	color:#9F9999 ;
+	text-indent: 10px;
+}
+.mudi>div>ul{
+	height: 20px;
+	border-bottom:1px solid gray;
+}
+.mudi>div>ul>li{
+	height: 20px;
+	border: none;
+	color:#1448AD ;
+	font: 12px "微软雅黑";
+	position: relative;
+}
+.mudi>div>ul>li:nth-of-type(1){
+	margin-left: 5px;
+}
+.mudi>div>ul>li>a{
+	padding: 0;
+	border: none;
+	padding: 0 2px;
+}
+.mudi>div>ul>.active{
+	border-bottom:2px solid #1448AD;
+}
+.tab-txt>span{
+	float: left;
+	margin-left: 10px;
+}
+.tab-txt>div{
+	margin-left: 30px;
+	margin-top: 10px;
+	
+}
+.tab-txt>div>a{
+	font: 12px "微软雅黑";
+	color: black;
+	padding: 0 5px;
+	border-radius: 5%;
+}
+.tab-txt>div>a:hover{
+	color: gold;
+}
+.tab-txt>div>.tab-txt-active{
+	color: white;
+	background-color: #FFC466;
+}
+.tab-txt>div>.tab-txt-active:hover{
+	color: white;
+}
+/*banner部分结束*/
+
+
+
+.carousel-indicators{
+	position: absolute;
+}
+.gnjp{
+	width: 500px;
+	height: 300px;
+	background: white;
+	position: absolute;
+	top: 42px;
+	left: 30px;
+}
+#main{
+	margin:0 auto;
+}
+.biaoti{
+	width: 1200px;
+	height: 50px;
+	margin: 10px auto;
+}
+.biaoti img{
+	float: left;
+}
+.biaoti_1{
+	float: left;
+}
+.biaoti_1 h3{
+	font-size:22px ;
+	margin-top: -2px;
+	
+}
+.biaoti_1 span{
+	margin-top: -5px;
+}
+.biaoti form{
+	float: right;
+	margin-top: 10px;
+}
+.biaoti_2{
+	float: right;
+	margin-top: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.biaoti_2:hover{
+	text-decoration: none;
+	color: orange;
+}
+.tu_four{
+	width: 1140px;
+	height: 180px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.tu_four a{
+	float: left;
+}
+.rm{
+	color: #666666;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 3px 2px 3px 2px;
+}
+.rm:hover{
+	text-decoration: none;
+	background: orange;
+	color: white;
+	border-radius: 2px;
+	padding: 3px 2px 3px 2px;
+}
+.rml{
+	margin-bottom: -40px;
+	line-height: 60px;
+	color: #666666;
+	text-decoration: none;
+	
+}
+.i-fly-salemore{
+	float: right;
+	color: #666666;
+}
+.i-fly-salemore:hover{
+	text-decoration: none;
+	color: orange;
+}
+.clearfix{
+	width: 1200px;
+	height: 380px;
+	background: #F8F8F8;
+	margin:  0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.clearfix>ul:nth-of-type(1){
+	float: left;
+	width: 380px;
+	height: 380px;
+}
+.clearfix>ul:nth-of-type(2){
+	float: left;
+	width: 380px;
+	height: 380px;
+}
+.clearfix>ul:nth-of-type(3){
+	float: left;
+	width: 380px;
+	height: 380px;
+}
+.clearfix>ul>li{
+	margin-top: 25px;
+}
+.clearfix>ul>li a{
+	display: inline-block;
+	width: 230px;
+	height: 20px;
+	
+}
+.clearfix>ul>li:hover>a{
+	text-decoration: none;
+	color: #1AB2DB;
+}
+.clearfix>ul>li a{
+	color: #666666;
+}
+
+.clearfix>ul>li>a>span{
+	display: inline-block;
+	text-align: left;
+}
+.clearfix>ul>li>a>span:nth-of-type(1){
+	width: 110px;
+}
+.clearfix>ul>li>a>span:nth-of-type(2){
+	width: 60px;
+}
+.clearfix>ul>li>a>span:nth-of-type(3){
+	width: 50px;
+}
+.price{
+	font-size: 16px;
+	color: red;
+	margin-left: 20px;
+}

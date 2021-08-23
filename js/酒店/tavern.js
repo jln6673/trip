@@ -1,0 +1,96 @@
+$(function(){
+	$('.bannar>.col-md-4>ul>li:nth-child(1)').on('click',function(){
+		$(this).siblings().removeClass('bian');
+		$(this).addClass("bian");
+		$('.erer').css('display','none');
+		$('.er').css('display','block');
+	})
+	$('.bannar>.col-md-4>ul>li:nth-child(2)').on('click',function(){
+		$('.erer').css('display','block');
+		$('.er').css('display','none');
+		$(this).siblings().removeClass('bian');
+		$(this).addClass("bian");
+	})
+	$('.lan').on('click',function(){
+		$(this).css('background','#1448AD');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+	$('.lann').on('click',function(){
+		$(this).css('background','#00A0E6');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+	$('.lannn').on('click',function(){
+		$(this).css('background','#E8A64F');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+	$('.lan').on('mouseenter',function(){
+		$(this).css('background','#1448AD');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+	$('.lann').on('mouseenter',function(){
+		$(this).css('background','#00A0E6');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+	$('.lannn').on('mouseenter',function(){
+		$(this).css('background','#E8A64F');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+	$('.carousel-indicators>li').on('mouseenter',function(){
+		$(this).css('background','#2BABDC');
+		$('item>img').attr("src","lun+'index"+'.png');
+		$(this).siblings().css('background','');
+	})
+	$('.five>.row>ul>li').on('mouseenter',function(){
+		$(this).find('.zhongjian').css('display','none');
+		$(this).siblings().find('.zhongjian').css('display','block');
+		$(this).css('width','373px');
+		$(this).siblings().css('width','146px');
+	}).on('mouseleave',function(){
+		$('.five>.row>ul>li').css('width','185px');
+		$(this).find('.zhongjian').css('display','block');
+	})
+	$('.lannn').on('click',function(){
+		$(this).css('background','#E8A64F');
+		$(this).css('color','white');
+		$(this).siblings().css('background','');
+		$(this).siblings().css('color','#7E7C7D');
+	})
+//	滚动监听
+	$(window).scroll(function(){
+		console.log($(document).scrollTop());
+		if ($(document).scrollTop() >= 353 && $(document).scrollTop() <= 2948) {
+			$(".jianting").show();
+		}else{
+			$(".jianting").hide();
+		}
+		if ($(document).scrollTop() >= 0 && $(document).scrollTop() <= 1036) {
+			$('.jianting>ul>li>a').removeClass('active');
+			$('.jianting>ul>li').eq(1).find('a').addClass('active');
+		}
+		if ($(document).scrollTop() >= 1036 && $(document).scrollTop() <= 1808) {
+			$('.jianting>ul>li>a').removeClass('active');
+			$('.jianting>ul>li').eq(2).find('a').addClass('active');
+		}
+		if ($(document).scrollTop() >= 1808 && $(document).scrollTop() <= 2509) {
+			$('.jianting>ul>li>a').removeClass('active');
+			$('.jianting>ul>li').eq(3).find('a').addClass('active');
+		}
+		if ($(document).scrollTop() >= 2509) {
+			$('.jianting>ul>li>a').removeClass('active');
+			$('.jianting>ul>li').eq(4).find('a').addClass('active');
+		}
+	});
+	
+})

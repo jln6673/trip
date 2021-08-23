@@ -1,0 +1,214 @@
+*{padding: 0;margin: 0;list-style:none;}
+body{width: 100%;height: 100%;}
+
+/*body*/
+.strategy_body{
+	width: 1200px;
+	height: 2048px;
+	margin: 0 auto;
+	/*border: 2px red solid;*/
+}
+/*body1*/
+.strategy_body_1{
+	width: 100%;
+	height: 284px;
+	margin-top: 20px;
+	
+	/*border: 1px black solid;*/
+}
+.strategy_body_1>div{
+	float: left;position: relative;/*父相子绝*/
+}
+
+
+/*body1---left*/
+.strategy_body_1left{
+	width: 310px;
+	height: 284px;
+	border: 2px #1ab2db solid;
+	
+}
+.strategy_body_1left li{
+	width: 100%;
+	height:70px;
+	padding: 0px 20px;
+	position: relative;/*父相子绝*/
+	padding-top: 10px;
+	/*border: 1px white solid;*/
+	border-bottom: 1px gainsboro solid;
+}
+.strategy_body_1left li:nth-of-type(4){border-bottom: 0px}
+/*.strategy_body_1left li:hover{border-right: 0px;}*/
+.strategy_body_1left li>a{color: #1ab2db;font-size: 18px;}
+.strategy_body_1left li>p{padding-top: 5px;}
+.strategy_body_1left li>p>a{color: gray;margin: 0px 25px 0px 0px;}
+.strategy_body_1left li>span{display:block;width: 20px;height: 40px;
+position: absolute;right: 0px;top: 20px;
+font: 25px \5b8b\4f53,arial,sans-serif;
+}
+/*隐藏元素*/
+.strategy_body_1left_yc{position: absolute;/*子绝*/top: -2px;left: 306px;
+width: 450px;height: 450px;border: 2px #1ab2db solid;display: none;
+padding: 20px;
+}
+.strategy_body_1left_yc{position: absolute;top: -2px;left: 306px;background-color: white;z-index: 999999;}
+.strategy_body_1left_yc>p{width: 100%;}
+.strategy_body_1left_yc>p>a{color:black;font-size: 18px;margin-right: 20px;}
+.strategy_body_1left_yc>p>span{color: gray;}
+/*--*/
+.strategy_body_1left_yc>div>a{color: black;font-size: 20px;}
+.strategy_body_1left_yc>div>p>a{color: gray;}
+
+/*banner*/
+.strategy_body_1zhong{margin-left: 10px;width: 600px;height: 284px;}
+
+/*body1---right*/
+.strategy_body_1right{margin-left: 10px;width: 250px;height: 284px;}
+
+/*大地图区域*/
+/*大地图区域--------------------------------------------------------------------------大地图区域*/
+/*大地图区域*/
+.strategy_body_2{
+	width: 1200px;height: 640px;
+}
+.strategy_body_2>div{float: left;}
+#main{margin-left: 50px;}
+.strategy_body_2right{
+	width: 550px;height: 640px;
+	padding-left: 60px;
+}
+.strategy_body_2right>p:nth-of-type(1){margin-top: 100px;}
+
+	/*星星*/
+* {
+	padding: 0;
+	margin: 0;
+}
+.xing{
+width: 200px;
+}			
+.xing>li{
+	width: 24px;
+	height: 19px;
+	background: url(../../img/攻略/strategy/1.png) no-repeat 0 0px;
+	float: left;
+	list-style: none;
+}
+/*------------------------------------------------------*/
+.strategy_body_2right_p1>a:hover{text-decoration: none;}
+.strategy_body_2right_p1>a{margin-right: 20px;}
+
+/*bodytup区域
+月度推荐区域*/
+.strategy_body_3{
+	margin-top: 40px;
+	width: 1200px;height: 460px;/*border: 1px red solid;*/
+	
+}
+.strategy_jushou{
+	width: 1200px;
+	border-left: 9px solid #00a0e9;height: 70px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.strategy_jushou>img{margin-top: -10px;}
+.strategy_jushou span:nth-of-type(1){font-size: 30px;color: #CCCCCC;}
+.strategy_jushou span:nth-of-type(2){font-size: 20px;color: #28b5dc;}
+.strategy_body_3>ul{
+	height: 60px;
+	margin-left: 100px;
+	margin-top:30px ;
+}
+.strategy_body_3>ul>li{
+	width: 80px;height: 60px;
+	float: left;
+	/*border: 1px red solid;*/
+	position: relative;
+	padding: 0px 5px;
+	
+}
+/*.strategy_body_3>ul>li>span:nth-of-type(1){width: 80px;height: 70px;position: absolute;top: -20px;left: 25px;}
+.strategy_body_3>ul>li>span:nth-of-type(2){width: 80px;height: 70px;position: absolute;bottom: -20px;left: 30px;}*/
+.strategy_body_3>ul>li>span:nth-of-type(1){display:block;height: 20px;text-align: center;}
+.strategy_body_3>ul>li>span:nth-of-type(2){position: absolute;top: 11px;left: 32px;height: 20px;text-align: center;display: none; }
+.strategy_body_3>ul>li>span:nth-of-type(3){width: 66px; font-size: 20px;color: #CCCCCC; display:block;height: 30px;text-align: center;}
+
+.tabs{
+	border-top: 2px #CCCCCC solid;padding-top: 50px;
+	margin-top:-35px ;padding-left: 12px;
+	width: 1200px;height: 280px;padding-left: 10px;
+}
+.tabs>a{
+	float: left;margin-left: 3px;margin-right: 3px;position: relative;
+}
+.tabs>a>div,.tabs2>a>div{
+	width: 100%; height: 30px;line-height: 30px; text-align: center; position: absolute;bottom: 0px;color: white;
+	background: rgba(0,0,0,0.3);
+	}
+.tabs_a2>img{
+	margin-top: 4px;
+}
+/*热门目的地*/
+.strategy_body_4{
+	margin-top: 100px;
+	width: 1200px;height: 460px;/*border: 1px red solid;*/
+}
+.strategy_body_4>ul{
+	width: 1200px;padding-left: 20px;margin-top: 40px;height: 20px;
+}
+.strategy_body_4>ul>li{margin-right: 20px;float: left;width: 80px;height: 40px;line-height: 40px;text-align: center;}
+.strategy_body_4>ul>li>a{color: black;text-decoration: none;}
+.tabs2{
+	width: 1200px;height: 280px;padding-left: 10px;margin-top: 40px;
+}
+.tabs2>a{
+	float: left;margin-left: 3px;margin-right: 3px;position: relative;
+}
+
+/*-----------------------------------------------------------------------*/
+
+.footer{
+	background-color: #1448ad;height: 200px;
+}
+.footer_div{
+	padding-top: 10px;
+	width: 1200px;height: 200px;margin: 0 auto;
+}
+.footer_div1{
+	width: 300px;float: left;
+}
+.footer_div1>h3,.footer_div1>p{
+	color: white;
+}
+.footer_div1>h3>img{
+	margin-top:-20px;
+}
+.footer_div1>a{
+	display: block;width: 120px;height: 40px;line-height: 40px;text-align: center;
+	background: white;margin: 0 auto;text-decoration: none;
+}
+
+.footer_div2{
+	width: 300px;float: right;
+}
+.footer_div2>div{
+	margin-top: 20px;
+	float: left;margin-left:20px;
+}
+.footer_div2>div>span{
+	margin-top: 10px;
+	display: block;text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

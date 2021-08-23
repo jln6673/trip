@@ -1,0 +1,108 @@
+/*最上面的导航条*/
+.toper_text{
+	margin-top: 15px;
+	font:18px "微软雅黑";
+	color: white;
+}
+.toper_text>li:nth-of-type(4){
+	margin-left: 40px;
+	
+}
+.toper_text>li:nth-of-type(4)>a,.toper_text>li:nth-of-type(5)>a{
+	position: relative;
+}
+.phone_wei{
+	position: absolute;
+	top: 25px;
+	left: -115px;
+	display: none;
+	z-index: 666;
+}
+.chat_wei{
+	position: absolute;
+	top: 25px;
+	left: -110px;
+	display: none;
+	z-index: 666;
+}
+/*第二个导航条*/
+.daohang>li>a{
+	color: white;
+	font: 18px "微软雅黑";
+	padding: 15px 25px;
+}
+.daohang>li>a>span{
+	top:5px;
+	right: 8px;
+	font-size: 25px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #1AB2DB;
+}
+.actives{
+	background-color: #1AB2DB;
+}
+.top_text{
+	margin-top: 16px;
+	font:16px "微软雅黑";
+	color: white;
+}
+.top_text>li>span{
+	font-size: 20px;
+	top: 5px;
+}
+.top_text a{
+	color: white;
+}
+.top_text a:hover,.top_text a:focus{
+	text-decoration: none;
+	color: #FFCC00;
+}
+/*页脚*/
+.downloads>div:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.downloads>div>div:nth-of-type(1){
+	float: left;
+}
+.downloads>div>div:nth-of-type(1)>button{
+	border-radius: 0;
+	width: 150px;
+	font:900 15px "微软雅黑";
+	color: #1448AD;
+	margin: 5px 0 0 5px;
+}
+.downloads>div>div:nth-of-type(1)>button:hover{
+	background: #FFCC00;
+	color: white;
+}
+.downloads>div>div:nth-of-type(2){
+	float: right;
+	margin-top: 20px;
+}
+.more{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+.more dt{
+	color: #E6E6E6;
+}
+.more dd{
+	line-height: 30px;
+}
+.more dd>a{
+	color: #B6B6B6;
+	font: 12px "微软雅黑";
+}
+.more dd>a:hover,.more dd>a:focus{
+	color: #B89200;
+	text-decoration: none;
+}
+.more dd>a:nth-of-type(2){
+	margin-left: 15px;
+}

@@ -1,0 +1,250 @@
+a:hover,a:focus{
+	cursor: pointer;
+	text-decoration: none;
+}
+.container{
+	width: 1200px;
+}
+
+
+/*section部分*/
+/*搜索*/
+.sou{
+	padding-top: 20px;
+}
+.sou input{
+	height: 55px;
+}
+.sou>div:nth-of-type(1),
+.sou>div:nth-of-type(2),
+.sou>div:nth-of-type(3)>span:nth-of-type(1){
+	position: relative;
+}
+.sou>div:nth-of-type(1)>span,
+.sou>div:nth-of-type(2)>span,
+.sou>div:nth-of-type(3)>span>span{
+	position: absolute;
+	top: 16px;
+	z-index: 6;
+}
+.sou>div:nth-of-type(1)>span:nth-of-type(1),
+.sou>div:nth-of-type(2)>span:nth-of-type(1){
+	left:10px ;
+}
+.sou>div:nth-of-type(1)>span:nth-of-type(2),
+.sou>div:nth-of-type(2)>span:nth-of-type(2),
+.sou>div:nth-of-type(3)>span>span{
+	right:10px ;
+}
+.sou>div:nth-of-type(1)>input,
+.sou>div:nth-of-type(2)>input{
+	text-indent: 15px;
+	border: 2px solid #1AB2DB;
+}
+.sou>div:nth-of-type(1):hover input,
+.sou>div:nth-of-type(2):hover input{
+	background-color: gainsboro;
+	border-color: gray ;
+}
+.sou>div:nth-of-type(1)>input{
+	width: 100px;
+}
+.sou>div:nth-of-type(2)>input{
+	width: 130px;
+}
+.sou .input-group-addon{
+	padding: 0;
+	border: none;
+}
+.sou>div:nth-of-type(3){
+	margin-left: 100px;
+}
+.sou>div:nth-of-type(3) button{
+	height: 55px;
+	padding: 0 20px;
+	border: 2px solid #FFCC00;
+	background-color: #FFCC00;
+	color: white;
+}
+.sou>div:nth-of-type(3) button:focus{
+	outline: none;
+	background-color:#FFCC00 ;
+	border-color: #FFCC00 ;
+	box-shadow: none;
+	color: white;
+}
+.sou>div:nth-of-type(3) input:focus{
+	box-shadow: none;
+}
+.sou>div:nth-of-type(3) button>span{
+	font-size: 20px;
+}
+.sou>div:nth-of-type(3) input{
+	border: 2px solid #FFCC00;
+}
+.sou>div:nth-of-type(3)>span:nth-of-type(1):hover input{
+	background-color: gainsboro;
+}
+
+.didian{
+	position: relative;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	border: none;
+}
+.didian>div{
+	position: absolute;
+	width: 300px;
+	border: 1px solid gray;
+	z-index: 10;
+	left: -50px;
+	top:45px;
+	border-radius: 3%;
+	display: none;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.didian>div>p{
+	font: 12px "微软雅黑";
+	color:#9F9999 ;
+	text-indent: 10px;
+}
+.didian>div>ul{
+	height: 20px;
+	border-bottom:1px solid gray;
+}
+.didian>div>ul>li{
+	height: 20px;
+	border: none;
+	color:#1448AD ;
+	font: 12px "微软雅黑";
+	position: relative;
+}
+.didian>div>ul>li:nth-of-type(1){
+	margin-left: 5px;
+}
+.didian>div>ul>li>a{
+	padding: 0;
+	border: none;
+	padding: 0 2px;
+}
+.didian>div>ul>.active{
+	border-bottom:2px solid #1448AD;
+}
+.tab-txt>span{
+	float: left;
+	margin-left: 10px;
+}
+.tab-txt>div{
+	margin-left: 30px;
+	margin-top: 10px;
+	
+}
+.tab-txt>div>a{
+	font: 12px "微软雅黑";
+	color: black;
+	padding: 0 5px;
+	border-radius: 5%;
+}
+.tab-txt>div>a:hover{
+	color: gold;
+}
+.tab-txt>div>.tab-txt-active{
+	color: white;
+	background-color: #FFC466;
+}
+.tab-txt>div>.tab-txt-active:hover{
+	color: white;
+}
+.box{
+	border: 1px solid gray;
+}
+.box:hover{
+	cursor: pointer;
+}
+.box>.nav{
+	background-color: #F6F6F6;
+}
+.box>.nav>li>a{
+	border-radius: 0;
+	margin-right: 0;
+	border: none;
+}
+.box>.nav .active>a{
+	border: none;
+	border-top:3px solid  #1AB2DB;
+}
+.box>.nav>li>a:hover{
+	background: #F6F6F6;
+	border: none;
+}
+.box>.nav>li>a:focus,
+.box>.nav .active>a:hover{
+	border: none;
+	border-top:3px solid  #1AB2DB;
+	background: white;
+}
+.lvyou>div>p{
+	border-bottom: 1px gray dashed;
+	line-height: 30px;
+	text-indent: 15px;
+}
+.lvyou>div>p:nth-of-type(5){
+	border: none;
+}
+.lvyou .icon-cuowu{
+	font-size: 6px;
+}
+.lvyou>div>p:nth-of-type(1)>span{
+	border:1px solid gray;
+	margin-left: 5px;
+	padding: 2px 3px;
+}
+.lvyou>div>p:nth-of-type(2)>a,
+.lvyou>div>p:nth-of-type(3)>a,
+.lvyou>div>p:nth-of-type(4)>a,
+.lvyou>div>p:nth-of-type(5)>a{
+	color: black;
+	margin-left: 15px;
+}
+.lvyou>div>p:nth-of-type(2)>span,
+.lvyou>div>p:nth-of-type(3)>span,
+.lvyou>div>p:nth-of-type(4)>span,
+.lvyou>div>p:nth-of-type(5)>span{
+	display: inline-block;
+	border: 1px solid gray;
+	float: right;
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	text-indent:5px;
+	margin-right: 10px;
+}
+.lvyou>div>p>a{
+	position: relative;
+}
+.lvyou>div>p>a>input{
+	position: absolute;
+	top: -2px;
+	left: -15px;
+}
+.lvyou>div>p:nth-of-type(2)>span:hover,
+.lvyou>div>p:nth-of-type(3)>span:hover,
+.lvyou>div>p:nth-of-type(4)>span:hover,
+.lvyou>div>p:nth-of-type(5)>span:hover{
+	border-color: blue;
+	color: blue;
+}
+.lvyou>div>p:nth-of-type(2)>.shouqi,
+.lvyou>div>p:nth-of-type(3)>.shouqi,
+.lvyou>div>p:nth-of-type(4)>.shouqi,
+.lvyou>div>p:nth-of-type(5)>.shouqi{
+	border: none;
+}
+
+/*列表*/
+.tu>li:hover{
+	cursor: pointer;
+}
+

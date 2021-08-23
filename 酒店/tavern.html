@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/样式清空.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/酒店/tavern.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/topfoot.css"/>
+		<title>酒店</title>
+	</head>
+	<body data-spy="scroll" data-target="#selector" data-offest="0">
+		<!--头部-->
+		<div class="container-fluid" style="background: #1448AD;height: 56px;">
+			<div class="container">
+				<nav class="navbar" style="margin: 0;">
+					<div class="navbar-header">
+				      <a class="navbar-brand" href="#">
+				        <img alt="Brand" src="../img/首页/index/sy-logo.jpg"style="margin-top: -20px;">
+				      </a>
+				    </div>
+				    <div class="navbar-right">
+				    	<ul class="list-inline toper_text">
+				    		<li>客服中心</li>
+				    		<li>|</li>
+				    		<li>24小时热线：400-xxx-6666</li>
+				    		<li><a href="#"><img class="phone" src="../img/首页/index/sy-index-phone-white.jpg"/><img class="phone_wei" src="../img/首页/index/sy-erwei-phone.jpg"/></a></li>
+				    		<li><a href="#"><img class="chat" src="../img/首页/index/sy-index-chat-white.jpg"/><img class="chat_wei" src="../img/首页/index/sy-erwei-chat.jpg"/></a></li>
+				    	</ul>
+				    </div>
+				</nav>
+			</div>
+		</div>
+		<div class="container-fluid" style="background: #000000;">
+			<div class="container">
+					<ul class="nav navbar-nav daohang">
+						<li><a href="../首页/index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+						<li><a href="../旅游/travel.html"><span class="glyphicon glyphicon-globe"></span>旅游</a></li>
+						<li><a href="../酒店/tavern.html" class="actives"><span class="glyphicon glyphicon-tower"></span>酒店</a></li>
+						<li><a href="../机票/fiyTicket.html"><span class="glyphicon glyphicon-plane"></span>机票</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>门票</a></li>
+						<li><a href="../攻略/strategy.html"><span class="glyphicon glyphicon-book"></span>攻略</a></li>
+					</ul>
+					<ul class="list-inline top_text navbar-right">
+						<li><span class="glyphicon glyphicon-user"></span></li>
+						<li><a href="login.html">登录</a></li>
+						<li>|</li>
+						<li><a href="register.html">注册</a></li>
+					</ul>
+			</div>
+		</div>
+		<!--第一页bannar-->
+		<div class="container bannar">
+			<!--左边-->
+			<div style="height: 383px;" class="col-md-4">
+				<ul style="height: 50px;">
+					<li class="col-md-6 text-center bian">国内.港澳台</li>
+					<li class="col-md-6 text-center ">海外</li>
+				</ul>
+				<div class=" er form-group">
+					<label for="a">目&nbsp;&nbsp;的&nbsp;&nbsp;地:</label>
+					<input style="width: 140px;" type="text" placeholder="   中文/拼音/首字母 " name="" id="a" value="" />
+					<span id="sousuo">搜索历史  <span class="caret"></span></span>
+					<label for="aa">入住日期:</label>
+					<input placeholder="   2016-12-02               明天"  class="inputkuan" type="text" name="" id="aa" value="" />
+					<label for="aaa">退房日期:</label>
+					<input placeholder="   2016-12-03               后天" class="inputkuan" type="text" name="" id="aaa" value="" />
+					<label for="aaaa">关&nbsp;&nbsp;键&nbsp;&nbsp;词:</label>
+					<input class="inputkuan" type="text" name="" id="aaaa" value="" />
+					<button style="margin-left: 75px;margin-top: 25px; background: #FFC500;width: 240px;" class="btn text-center">搜索</button>
+				</div>
+				<div class="erer">
+					<p style="margin-top: 30px;"><span style="color: black;">热门城市：</span>上海  广州  深圳  北京  成都  杭州  苏州  青岛</p>
+					<p style="margin-top: 10px;"><span style="color: black;">热门团购：</span>度假公寓 别墅轰趴 住店游玩 情侣酒店 火车票专</p>
+					<label for="aaaaa">关键词</label>
+					<input style="width: 270px;margin-left: -10px;" class="inputkuan" type="text" name="" id="aaaaa" value="" />
+					<label for="aaaaaa">目的地</label>
+					<input style="width: 270px;margin-left: -10px;" class="inputkuan" placeholder="（选填）商圈/景区/酒店品牌/酒店名称/关键字" type="text" name="" id="aaaaaa" value="" />
+					<button class="btn text-center">搜索行程 ></button>
+				</div>
+			</div>
+			<!--右边-->
+			<div class="col-md-8 carousel slide" data-ride="carousel">
+				<div id="bo" class="carousel slide" data-ride="carousel">
+			        <div class="carousel-inner">
+				        <div class="item active">
+					        <img style="height: 383px;" src="../img/酒店/tavern/lun1.png"/>
+				        </div>
+				        <div class="item">
+					        <img src="../img/酒店/tavern/lun2.png"/>
+				        </div>
+				        <div class="item">
+					    	<img src="../img/酒店/tavern/lun3.png"/>
+				    	</div>
+			    	</div>
+			    	<ul class="carousel-indicators">
+				   		<li data-target = "#bo" data-slide-to="0" class="active"></li>
+				   		<li data-target = "#bo" data-slide-to="1"></li>
+				   		<li data-target = "#bo" data-slide-to="2"></li>
+			    	</ul>
+		   		</div>
+			</div>
+		</div>
+		<!--第二页部分-->
+		<div class="container two" id="name1">
+			<div class="row">
+				<div class="col-md-2" style="font:bold 25px '微软雅黑';margin-top: -5px;"><span></span>&nbsp;海外酒店</div>
+				<div class="active  col-md-1 lan" style="background: #1448AD;color: white;margin-left: 100px;">普吉酒店</div>
+				<div class="col-md-1 lan">曼谷酒店</div>
+				<div class="col-md-1 lan">首尔酒店</div>
+				<div class="col-md-1 lan">清迈酒店</div>
+				<div style="width: 120px;" class="col-md-1 lan">新加坡酒店</div>
+				<div style="width: 120px; font: 17px "微软雅黑";" class="col-md-1 col-md-push-2"><a href="tavern_list.html">更多酒店</a>&nbsp;<strong>></strong></div>
+			</div>
+			<div style="margin-top: 20px;border-bottom: none;padding-right: none;" class="row">
+				<ul style="padding-right: 0px;" class="col-md-12">
+					<li style="margin-left: -30px; width: 290px;position: relative;" class="col-md-3">
+						<img src="../img/酒店/tavern/05-酒店首页_13.jpg"/>
+						<div style="position: absolute;" class="biaozhu">
+							泰国曼谷
+						</div>
+					</li>
+					<li class="col-md-2 kuang yyy">
+						<img src="../img/酒店/tavern/05-酒店首页nu.png"/>
+						<h4>曼谷盛泰澜中央世界商业中心...</h4>
+						<p>￥<span>639</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;曼谷/豪华型</p>
+					</li>
+					<li class="col-md-2 kuang yyy">
+						<img src="../img/酒店/tavern/2.png"/>
+						<h4>曼谷盛泰澜中央世界商业中心...</h4>
+						<p>￥<span>702</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;曼谷/豪华型</p>
+					</li>
+					<li class="col-md-2 kuang yyy">
+						<img src="../img/酒店/tavern/3.png"/>
+						<h4>曼谷盛泰澜中央世界商业中心...</h4>
+						<p>￥<span>353</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;曼谷/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuang kkk">
+						<img src="../img/酒店/tavern/4.png"/>
+						<h4>曼谷盛泰澜中央世界商业中心...</h4>
+						<p>￥<span>233</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;曼谷/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuang kkk">
+						<img src="../img/酒店/tavern/5.png"/>
+						<h4>曼谷盛泰澜中央世界商业中心...</h4>
+						<p>￥<span>368</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;曼谷/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuang kkk">
+						<img src="../img/酒店/tavern/6.png"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--第三页部分-->
+		<div class="container three" id="name2">
+			<div class="row">
+				<div class="col-md-2" style="font:bold 25px '微软雅黑';margin-top: -5px;"><span></span>&nbsp;热门城市酒店</div>
+				<div class=" col-md-1 lann" style="margin-left: 100px;">北京</div>
+				<div class="active col-md-1 lann" style="background: #00A0E6;color: white;">上海</div>
+				<div class="col-md-1 lann">广州</div>
+				<div class="col-md-1 lann">南京</div>
+				<div class="col-md-1 lann">杭州</div>
+				<div class="col-md-1 lann">厦门</div>
+				<div class="col-md-1 lann">三亚</div>
+				<div class="col-md-1 lann">香港</div>
+				<div style="width: 120px; font: 17px "微软雅黑";" class="col-md-1 col-md-push-2">更多酒店&nbsp;<strong>></strong></div>
+			</div>
+			<div style="margin-top: 20px;border-bottom: none;padding-right: none;" class="row">
+				<ul style="padding-right: 0px;" class="col-md-12">
+					<li style="margin-left: -30px; width: 290px;position: relative;" class="col-md-3">
+						<img src="../img/酒店/tavern/05-酒店首页_20.jpg"/>
+						<div style="position: absolute;" class="biaozhuu">
+							魔都上海
+						</div>
+					</li>
+					<li class="col-md-2 kuangg yyy">
+						<img src="../img/酒店/tavern/7.png"/>
+						<h4>启东恒大海上威尼斯酒店（恒大...</h4>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li class="col-md-2 kuangg yyy">
+						<img src="../img/酒店/tavern/8.png"/>
+						<h4>启东恒大海上威尼斯酒店（恒大...</h4>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li class="col-md-2 kuangg yyy">
+						<img src="../img/酒店/tavern/9.png"/>
+						<h4>启东恒大海上威尼斯酒店（恒大...</h4>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuangg kkk">
+						<img src="../img/酒店/tavern/10.png"/>
+						<h4>启东恒大海上威尼斯酒店（恒大...</h4>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuangg kkk">
+						<img src="../img/酒店/tavern/11.png"/>
+						<h4>启东恒大海上威尼斯酒店（恒大...</h4>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuangg kkk">
+						<img src="../img/酒店/tavern/12.png"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--中间插曲页部分-->
+		<div style="margin-top: 40px;" class="container">
+			<div class="row">
+				<div style="margin-right: 0px;width: 275px;" class="col-md-2">
+					<img style="width: 275px;height: 180px;" src="../img/酒店/tavern/13.png"/>
+				</div>
+				<div style="margin-left: 7px;width: 830px;" class="col-md-7">
+					<img style="width: 830px;height: 180px;" src="../img/酒店/tavern/14.png"/>
+				</div>
+			</div>
+		</div>
+		<!--第四页部分-->
+		<div class="container four" id="name3">
+			<div class="row">
+				<div class="col-md-2" style="font:bold 25px '微软雅黑';margin-top: -5px;width: 220px;"><span></span>&nbsp;当季热门目的地</div>
+				<div class=" col-md-1 lannn" style="margin-left: 100px;">美食</div>
+				<div class="col-md-1 lannn">赏花</div>
+				<div class="active col-md-1 lannn" style="background: #E8A64F;color: white;">登山</div>
+				<div class="col-md-1 lannn">古镇</div>
+				<div class="col-md-1 lannn">度假</div>
+				<div class="col-md-1 lannn">观海</div>
+			</div>
+			<div style="margin-top: 20px;border-bottom: none;padding-right: none;" class="row">
+				<ul style="padding-right: 0px;" class="col-md-12">
+					<li style="margin-left: -30px; width: 290px;position: relative;" class="col-md-3">
+						<img src="../img/酒店/tavern/05-酒店首页_25.jpg"/>
+						<div style="position: absolute;" class="biaozhuu">
+							登高望远
+						</div>
+					</li>
+					<li class="col-md-2 kuangg yyy">
+						<img src="../img/酒店/tavern/15.png"/>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li class="col-md-2 kuangg yyy">
+						<img src="../img/酒店/tavern/16.png"/>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li class="col-md-2 kuangg yyy">
+						<img src="../img/酒店/tavern/17.png"/>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuangg kkk">
+						<img src="../img/酒店/tavern/18.png"/>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuangg kkk">
+						<img src="../img/酒店/tavern/19.png"/>
+						<p>￥<span>926</span>&nbsp;起订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启东市/豪华型</p>
+					</li>
+					<li style="margin-top: 15px;" class="col-md-2 kuangg kkk">
+						<img src="../img/酒店/tavern/20.png"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--第五页部分-->
+		<div class="container five" id="name4">
+			<div class="row">
+				<div class="col-md-2" style="font:bold 25px '微软雅黑';margin-top: -5px;width: 220px;"><span></span>&nbsp;特色酒店推荐</div>
+			</div>
+			<div style="margin-top: 20px;border-bottom: none;padding-right: none;" class="row">
+				<ul style="padding-right: 0px;">
+					<li style="position: relative;" class="col-md-2">
+						<img src="../img/酒店/tavern/xianshi.jpg"/>
+						<div style="position: absolute;" class="zhongjian">
+							青旅酒店
+						</div>
+					</li>
+					<li style="position: relative;" class="col-md-2">
+						<img src="../img/酒店/tavern/xianshi.jpg"/>
+						<div style="position: absolute;" class="zhongjian">
+							古镇酒店
+						</div>
+					</li>
+					<li style="position: relative;" class="col-md-2">
+						<img src="../img/酒店/tavern/xianshi.jpg"/>
+						<div style="position: absolute;" class="zhongjian">
+							亲子酒店
+						</div>
+					</li>
+					<li style="position: relative;" class="col-md-2">
+						<img src="../img/酒店/tavern/xianshi.jpg"/>
+						<div style="position: absolute;" class="zhongjian">
+							情侣酒店
+						</div>
+					</li>
+					<li style="position: relative;" class="col-md-2">
+						<img src="../img/酒店/tavern/xianshi.jpg"/>
+						<div style="position: absolute;" class="zhongjian">
+							依山酒店
+						</div>
+					</li>
+					<li style="position: relative;" class="col-md-2">
+						<img src="../img/酒店/tavern/xianshi.jpg"/>
+						<div style="position: absolute;" class="zhongjian">
+							最美酒店
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--滚动对应-->
+		<div id="selector" class="jianting">
+					<ul>
+						<li><a style="padding-top: 20px;">i旅游</a></li>
+						<li><a href="#name1" class="active"><p>海外</p><p>酒店</p></a></li>
+						<li><a href="#name2"><p>热门城</p><p>市酒店</p></a></li>
+						<li><a href="#name3"><p>当季热</p><p>门目的地</p></a></li>
+						<li><a href="#name4"><p>特色酒</p><p>店推荐</p></a></li>
+					</ul>
+				</div>
+		
+		<!--页脚-->
+		<div class="container-fluid downloads" style="background: #1448AD;padding: 10px 0 30px 0;margin-top: 50px;">
+			<div class="container">
+				<div>
+					<p><img src="../img/首页/index/sy-download.jpg" /></p>
+					<button class="btn" style="outline: 0;">立 刻 下 载</button>
+				</div>
+				<div>
+					<img src="../img/首页/index/sy-chat-pingtai.jpg" />
+					<img style="margin-left: 30px;" src="../img/首页/index/sy-app-download.jpg" />
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" style="background: #000000;">
+			<div class="container" style="border-bottom: 1px solid gray;padding: 60px 0 30px 0;">
+				<ul class="more">
+					<li><img src="../img/首页/index/sy-fw.jpg"/></li>
+					<li>
+						<dl>
+							<dt>旅游资讯</dt>
+							<dd><a href="#">宾馆索引</a><a href="#">攻略索引</a></dd>
+							<dd><a href="#">机票索引</a><a href="#">网站导航</a></dd>
+							<dd><a href="#">旅游索引</a><a href="#">火车票索引</a></dd>
+							<dd><a href="#">邮轮索引</a><a href="#">用车索引</a></dd>
+							<dd><a href="#">企业差旅索引</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>加盟合作</dt>
+							<dd><a href="#">分销联盟</a><a href="#">友情链接</a></dd>
+							<dd><a href="#">广告业务</a><a href="#">企业礼品卡采购</a></dd>
+							<dd><a href="#">保险代理</a><a href="#">代理合作</a></dd>
+							<dd><a href="#">酒店加盟</a><a href="#">目的地及景区合作</a></dd>
+							<dd><a href="#">智慧旅游</a><a href="#">更多加盟合作</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>关于我们</dt>
+							<dd><a href="#">i旅行热点</a><a href="#">联系我们</a></dd>
+							<dd><a href="#">诚聘英才</a><a href="#">旅游度假资源</a></dd>
+							<dd><a href="#">企业公民</a><a href="#">服务说明</a></dd>
+							<dd><a href="#">营业执照</a><a href="#">安全中心</a></dd>
+							<dd><a href="#">i旅行信用卡></a></dd>
+						</dl>
+					</li>
+				</ul>
+									
+			</div>
+			<div class="container"style="padding: 20px 0;">
+				<img src="../img/首页/index/sy-footer.jpg"/>
+			</div>
+		</div>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/topfoot.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/酒店/tavern.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+$(function(){
+	$('.phone').on('mouseenter',function(){
+		$(this).attr('src',"../img/首页/index/sy-index-phone-ye.jpg");
+		$('.phone_wei').show();
+	}).on('mouseleave',function(){
+		$(this).attr('src',"../img/首页/index/sy-index-phone-white.jpg");
+		$('.phone_wei').hide();
+	});
+	$('.chat').on('mouseenter',function(){
+		$(this).attr('src',"../img/首页/index/sy-index-chat-ye.jpg");
+		$('.chat_wei').show();
+	}).on('mouseleave',function(){
+		$(this).attr('src',"../img/首页/index/sy-index-chat-white.jpg");
+		$('.chat_wei').hide();
+	});
+	$('.daohang>li>a').on('click',function(){
+		$('.daohang>li>a').removeClass('actives');
+		$(this).addClass('actives');
+	})
+})

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/样式清空.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/酒店/tavern_list.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/topfoot.css"/>
+		<title>酒店列表</title>
+	</head>
+	<body data-spy="scroll" data-target="#gundong" data-offest="0">
+		<!--头部-->
+		<div class="container-fluid" style="background: #1448AD;height: 56px;">
+			<div class="container">
+				<nav class="navbar" style="margin: 0;">
+					<div class="navbar-header">
+				      <a class="navbar-brand" href="#">
+				        <img alt="Brand" src="../img/首页/index/sy-logo.jpg"style="margin-top: -20px;">
+				      </a>
+				    </div>
+				    <div class="navbar-right">
+				    	<ul class="list-inline toper_text">
+				    		<li>客服中心</li>
+				    		<li>|</li>
+				    		<li>24小时热线：400-xxx-6666</li>
+				    		<li><a href="#"><img class="phone" src="../img/首页/index/sy-index-phone-white.jpg"/><img class="phone_wei" src="../img/首页/index/sy-erwei-phone.jpg"/></a></li>
+				    		<li><a href="#"><img class="chat" src="../img/首页/index/sy-index-chat-white.jpg"/><img class="chat_wei" src="../img/首页/index/sy-erwei-chat.jpg"/></a></li>
+				    	</ul>
+				    </div>
+				</nav>
+			</div>
+		</div>
+		<div class="container-fluid" style="background: #000000;">
+			<div class="container">
+					<ul class="nav navbar-nav daohang">
+						<li><a href="../首页/index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+						<li><a href="../旅游/travel.html"><span class="glyphicon glyphicon-globe"></span>旅游</a></li>
+						<li><a href="../酒店/tavern.html" class="actives"><span class="glyphicon glyphicon-tower"></span>酒店</a></li>
+						<li><a href="../机票/fiyTicket.html"><span class="glyphicon glyphicon-plane"></span>机票</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>门票</a></li>
+						<li><a href="../攻略/strategy.html"><span class="glyphicon glyphicon-book"></span>攻略</a></li>
+					</ul>
+					<ul class="list-inline top_text navbar-right">
+						<li><span class="glyphicon glyphicon-user"></span></li>
+						<li><a href="login.html">登录</a></li>
+						<li>|</li>
+						<li><a href="register.html">注册</a></li>
+					</ul>
+			</div>
+		</div>
+		<!--第一页部分-->
+		<div style="margin-top: 30px;" class="container one">
+			<div class="dingbu">
+				您所在的位置： <a style="color: #337AB7;" href="#">酒店预订></a>北京酒店
+			</div>
+			<div style="padding-left: 0px;" class="col-md-12">
+				<div style="border-top: 4px solid #1AB1DC;padding-top:7PX; height: 50px; background: #EEEEEE;width: 1136px;margin-left: -1px;">
+					目的地：<input style="height: 30px;width: 140px;" placeholder="北京" type="text" />   
+					入住：<input style="height: 30px;width: 140px;" placeholder="2016-12-05" type="text" />
+					退房：<input style="height: 30px;width: 140px;" placeholder="北京" type="text" />
+					关键词：<input style="height: 30px;width: 140px;" placeholder="北京" type="text" /> 
+					<button style="background: #1AB2DB;color: white;" class="btn">搜索</button>
+				</div>
+				<div class="col-md-12" style="border-bottom: 1px dashed #999999;padding-top: 10px;padding-bottom: 10px;">
+					位置：
+					<input type="checkbox" style="margin-right: 10px;" checked="checked" />天安门，王...
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />天安门，中关村，五...
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />西单，金融...
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />首都机场
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />亚运村
+				</div>
+				<div class="col-md-12" style="border-bottom: 1px dashed #999999;padding-top: 10px;padding-bottom: 10px;">
+					价格：
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />￥150以下
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" checked="checked" />￥150-300
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />￥301-450
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />￥450以上
+				</div>
+				<div class="col-md-12" style="border-bottom: 1px dashed #999999;padding-top: 10px;padding-bottom: 10px;">
+					星级：
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />二级及以...
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" checked="checked" />三星级/舒适
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />四星级/高档
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />五星级/高档
+				</div>
+				<div class="col-md-12" style="padding-top: 10px;padding-bottom: 10px;">
+					特色：
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />休闲度假
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" checked="checked"/>青年旅社
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />精品酒店
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />商务出行
+					<input type="checkbox" style="margin-left: 20px;margin-right: 10px;" />会
+				</div>
+			</div>
+		</div>
+		<!--第二页部分-->
+		<div style="margin-top: 30px;" class="container two">
+			<div class="dingbu">
+				您所在的位置： <a style="color: #337AB7;" href="#">酒店预订></a>北京酒店
+			</div>
+			<div style="padding-left: 0px;" class="col-md-3">
+				<div style="padding-top:7PX; height: 50px; background: #EEEEEE;width: 1136px;margin-left: -1px;">
+					<button class="btn">最受欢迎</button>
+					<button class="btn">评分</button>
+					<button class="btn">价格</button>
+					<button class="btn">星级</button>
+				</div>
+			</div>
+			<div style="margin-left: 120px;" class="col-md-5 col-md-push-3">
+				<input type="checkbox" style="margin-left: 10px;margin-right: 10px;margin-top: 17px;" />立即确认
+				<input type="checkbox" style="" checked="checked"/>可付
+				<input type="checkbox"/>促销
+				<input type="checkbox" />在线付
+				<input type="checkbox" />闪住
+				<input type="checkbox"/>钟点房
+			</div>
+		</div>
+		
+		<!--第三页部分-->
+		<div class="container">
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/1.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/2.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/3.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/4.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/5.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/6.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/7.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/8.png"/></a>
+			<a class="col-md-12" style="display: inline-block;margin-top: 20px;padding-left: 0px;width: 1140px;" href="tavernDetail.html"><img style="width: 1140px;height:200px;" src="../img/酒店/tavern_list/9.png"/></a>
+		</div>
+		
+		<!--第四页部分-->
+		<div class="container" style="margin-left: 1000px;">
+			<ul class="pagination">
+				<li><a href="#">&laquo;</a></li>
+				<li class="active"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">&raquo;</a></li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		
+		<!--页脚-->
+		<div class="container-fluid downloads" style="background: #1448AD;padding: 10px 0 30px 0;">
+			<div class="container">
+				<div>
+					<p><img src="../img/首页/index/sy-download.jpg" /></p>
+					<button class="btn" style="outline: 0;">立 刻 下 载</button>
+				</div>
+				<div>
+					<img src="../img/首页/index/sy-chat-pingtai.jpg" />
+					<img style="margin-left: 30px;" src="../img/首页/index/sy-app-download.jpg" />
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" style="background: #000000;">
+			<div class="container" style="border-bottom: 1px solid gray;padding: 60px 0 30px 0;">
+				<ul class="more">
+					<li><img src="../img/首页/index/sy-fw.jpg"/></li>
+					<li>
+						<dl>
+							<dt>旅游资讯</dt>
+							<dd><a href="#">宾馆索引</a><a href="#">攻略索引</a></dd>
+							<dd><a href="#">机票索引</a><a href="#">网站导航</a></dd>
+							<dd><a href="#">旅游索引</a><a href="#">火车票索引</a></dd>
+							<dd><a href="#">邮轮索引</a><a href="#">用车索引</a></dd>
+							<dd><a href="#">企业差旅索引</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>加盟合作</dt>
+							<dd><a href="#">分销联盟</a><a href="#">友情链接</a></dd>
+							<dd><a href="#">广告业务</a><a href="#">企业礼品卡采购</a></dd>
+							<dd><a href="#">保险代理</a><a href="#">代理合作</a></dd>
+							<dd><a href="#">酒店加盟</a><a href="#">目的地及景区合作</a></dd>
+							<dd><a href="#">智慧旅游</a><a href="#">更多加盟合作</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>关于我们</dt>
+							<dd><a href="#">i旅行热点</a><a href="#">联系我们</a></dd>
+							<dd><a href="#">诚聘英才</a><a href="#">旅游度假资源</a></dd>
+							<dd><a href="#">企业公民</a><a href="#">服务说明</a></dd>
+							<dd><a href="#">营业执照</a><a href="#">安全中心</a></dd>
+							<dd><a href="#">i旅行信用卡></a></dd>
+						</dl>
+					</li>
+				</ul>
+									
+			</div>
+			<div class="container"style="padding: 20px 0;">
+				<img src="../img/首页/index/sy-footer.jpg"/>
+			</div>
+		</div>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/topfoot.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/酒店/tavern.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+
